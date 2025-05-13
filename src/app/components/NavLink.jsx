@@ -2,12 +2,9 @@
 import Link from 'next/link';
 
 const NavLink = ({ href, title, onClick }) => (
-  <Link href={href}>
+  <Link href={href} scroll={true}>
     <span
-      onClick={(e) => {
-        e.preventDefault(); // prevent default link jump
-        onClick?.();        // manual scroll handled by parent
-      }}
+      onClick={onClick}
       className="cursor-pointer text-gray-300 hover:text-white transition-colors duration-300"
     >
       {title}

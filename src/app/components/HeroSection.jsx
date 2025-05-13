@@ -9,6 +9,7 @@ const HeroSection = () => {
     <section className="lg:py-12 px-4 sm:px-8 overflow-hidden">
       <div className="grid grid-cols-1 sm:grid-cols-12 gap-4">
         
+        {/* Left Text Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -43,6 +44,7 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            {/* Hire Me - LinkedIn */}
             <a
               href="https://www.linkedin.com/in/sinhaatharva23/"
               target="_blank"
@@ -52,6 +54,7 @@ const HeroSection = () => {
               Hire Me
             </a>
 
+            {/* Download Resume */}
             <a
               href="/Atharva_Resume.pdf"
               download
@@ -64,6 +67,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
+        {/* Right Image Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}

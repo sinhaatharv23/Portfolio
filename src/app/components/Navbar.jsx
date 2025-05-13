@@ -1,10 +1,10 @@
 "use client";
-import Link from 'next/link';
-import React, { useState } from 'react';
-import NavLink from './NavLink';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import React, { useState } from "react";
+import NavLink from "./NavLink";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navLinks = [
+  { title: "Home", path: "#home" },
   { title: "About", path: "#about" },
   { title: "Projects", path: "#projects" },
   { title: "Contact", path: "#contact" },
@@ -54,7 +54,7 @@ const Navbar = () => {
                   title={link.title}
                   onClick={() => {
                     setNavbarOpen(false);
-                    document.querySelector(link.path)?.scrollIntoView({ behavior: 'smooth' });
+                    document.querySelector(link.path)?.scrollIntoView({ behavior: "smooth" });
                   }}
                 />
               </li>

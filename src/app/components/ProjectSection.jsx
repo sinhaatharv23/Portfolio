@@ -11,8 +11,8 @@ const projectsData = [
     description: "Event booking platform",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/sinhaatharv23/book-easy.git",
+    previewUrl: "https://book-easy-three.vercel.app/",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projectsData = [
     description: "Real-time weather updates",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/sinhaatharv23/Weather_Forecasting_App.git",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projectsData = [
     description: "Track your expenses easily",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/sinhaatharv23/Expense_Tracker_Project.git",
   },
 ];
 
